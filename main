@@ -1,0 +1,33 @@
+import math
+
+# dictionary to store data
+carpet_type_prices = {
+  "berber": 5.09,
+  "texture": 3.69,
+  "pattern": 2.89
+}
+options_prices = {
+  "10yr warranty": 100.00,
+  "delivery": 35.00,
+  "installation": 75.00,
+  "stain guard": 30.00
+}
+promo_codes_data = {
+  "ADAROCKS": 75.00
+}
+
+def carpet_quote_estimator(room, carpet_type, options, promo_code):
+  total_cost = 0
+  room_area = room[0] * room[1]
+  # looks up and grabs value from dict
+  total_cost += carpet_type_prices[carpet_type] * room_area
+  for option in options:
+    total_cost += options_prices[option]
+  if promo_code == "ADAROCKS" and "installation" in options:
+    total_cost -= promo_codes_data[promo_code]
+  total_cost = format(total_cost, '.2f')
+  print(f"The cost is ${total_cost}")
+  
+
+# # You may call carpet_quote_estimator with your own arguments here.
+# carpet_quote_estimator(room, carpet_type, options, promo_code)
