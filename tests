@@ -1,0 +1,13 @@
+# Challenge1
+room = [10, 10]
+carpet_type = "berber"
+options = ["delivery", "installation"]
+promo_code = ""
+# output -> The cost is $619.00
+
+# Challenge2
+room = [9, 11]
+carpet_type = "pattern"
+options = ["delivery", "installation", "10yr warranty", "stain guard"]
+promo_code = "ADAROCKS"
+# output -> The cost is $451.11
