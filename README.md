@@ -1,6 +1,6 @@
-# Ada-Carpet-Emporium-Challenege
+# Carpet Quote for a Business
 A quote calculator for a carpet store
-Ada's Flooring Superstore aims to run the best full-service flooring shop in the neighborhood. Ada boasts a range of elegant flooring materials and additional services and promotional discounts... Ada will NOT be undersold! With your help, Ada’s Flooring Superstore will have the speediest quote calculator in the industry.
+Flooring Superstore aims to run the best full-service flooring shop in the neighborhood. Flooring Superstore boasts a range of elegant flooring materials and additional services and promotional discounts... Flooring Superstore will NOT be undersold! With your help, Flooring Superstore’s will have the speediest quote calculator in the industry.
 
 - A quote is for only one room and one type of carpet. The options are berber, texture, or pattern. The respective prices per square foot are listed below.
 - A quote has or more options. The options are 10 year warranty, delivery, installation, and stain guard. Their respective prices, which are a flat rate, i.e. not dependent on square footage, are listed below.
